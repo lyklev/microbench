@@ -20,7 +20,11 @@ Times in [s]:
 |-----------------------------------------|-------|--------|--------
 | MacBook Pro 2018, Core i5, 3.1 GHz, SSD |  15.0 |    3.8 |  10.6
 | Raspberry PI 4, 4 GB memory, SD card    | 241.7 |   19.0 |  20.3
-| Intel 4110 2.10GHz, SSD                 |   7.3 |    3.6 |   3.7 
+| Intel 4110 2.10GHz, SSD                 |   7.3 |    3.6 |   3.7
+
+
+This benchmark was run on shared parallel file systems, but these are too slow to be used in practice; the performance
+of shared parallel file systems is about 1000x slower than that of locally available file systems, so a separate (or light) version of this benchmark will be made for these tests.
 
 
 
